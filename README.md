@@ -109,7 +109,7 @@ Py_11_Multi-Model/
 │   ├── yolo_config.json        # YOLO model configuration
 │   ├── faster_rcnn_config.json # Faster R-CNN configuration
 │   └── resnet_config.json      # ResNet configuration
-├── weights/                    # Model weights (not in repo)
+├── weights/                    # Model weights
 │   ├── yolo_weights.pt
 │   ├── resnet_weights.pth
 │   └── faster_rcnn_weights.pth
@@ -165,10 +165,6 @@ pandas>=2.1.0
 - Inference transforms for ResNet must match training (no augmentation, optional normalization)
 - Detection models draw bounding boxes using color-coded labels
 - All models return a standardized result format compatible with the rendering engine
-
-## License
-
-[Add license information here]
 
 ## Acknowledgments
 

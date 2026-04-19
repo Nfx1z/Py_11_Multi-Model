@@ -1,0 +1,24 @@
+{
+    "input_size": [
+        3,
+        224,
+        224
+    ],
+    "num_classes": 11,
+    "classes": [
+        "Helmet",
+        "Gloves",
+        "Vest",
+        "Boots",
+        "Goggles",
+        "None",
+        "Person",
+        "No Helmet",
+        "No Goggles",
+        "No Gloves",
+        "No Boots"
+    ],
+    "model": "ResNet18",
+    "task": "multi-label classification",
+    "threshold": 0.5
+}

@@ -1,0 +1,48 @@
+{
+    "model": {
+        "architecture": "YOLOv11s",
+        "pretrained": true,
+        "weights": "yolo11s.pt"
+    },
+    "dataset": {
+        "train_path": "/content/ppe_split/images/train",
+        "val_path": "/content/ppe_split/images/val",
+        "test_path": "/content/ppe_split/images/test",
+        "num_classes": 11,
+        "class_names": [
+            "Helmet",
+            "Gloves",
+            "Vest",
+            "Boots",
+            "Goggles",
+            "None",
+            "Person",
+            "No Helmet",
+            "No Goggles",
+            "No Gloves",
+            "No Boots"
+        ]
+    },
+    "training": {
+        "epochs": 80,
+        "batch_size": 16,
+        "image_size": 640,
+        "device": "GPU",
+        "optimizer": "Adam/SGD (default YOLO)",
+        "learning_rate": "default (auto)",
+        "augmentation": {
+            "flip_horizontal": true,
+            "hsv_h": 0.015,
+            "hsv_s": 0.7,
+            "hsv_v": 0.4
+        }
+    },
+    "evaluation": {
+        "metrics": [
+            "Precision",
+            "Recall",
+            "mAP50",
+            "mAP50-95"
+        ]
+    }
+}

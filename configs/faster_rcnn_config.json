@@ -1,0 +1,79 @@
+{
+  "architecture": "FasterRCNN",
+  "backbone": "ResNet50-FPN",
+  "min_size": 800,
+  "max_size": 1333,
+  "box_score_thresh": 0.5,
+  "box_nms_thresh": 0.5,
+  "box_detections_per_img": 100,
+  "num_classes": 10,
+  "id2cat": {
+    "1": "ear_protection",
+    "2": "hair_cap",
+    "3": "masker",
+    "4": "respirator",
+    "5": "safety_boots",
+    "6": "safety_glasses",
+    "7": "safety_gloves",
+    "8": "safety_helmet",
+    "9": "welding_helmet"
+  },
+  "cat2id": {
+    "ear_protection": 1,
+    "hair_cap": 2,
+    "masker": 3,
+    "respirator": 4,
+    "safety_boots": 5,
+    "safety_glasses": 6,
+    "safety_gloves": 7,
+    "safety_helmet": 8,
+    "welding_helmet": 9
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "ear_protection",
+      "supercategory": "K3-Safety"
+    },
+    {
+      "id": 2,
+      "name": "hair_cap",
+      "supercategory": "K3-Safety"
+    },
+    {
+      "id": 3,
+      "name": "masker",
+      "supercategory": "K3-Safety"
+    },
+    {
+      "id": 4,
+      "name": "respirator",
+      "supercategory": "K3-Safety"
+    },
+    {
+      "id": 5,
+      "name": "safety_boots",
+      "supercategory": "K3-Safety"
+    },
+    {
+      "id": 6,
+      "name": "safety_glasses",
+      "supercategory": "K3-Safety"
+    },
+    {
+      "id": 7,
+      "name": "safety_gloves",
+      "supercategory": "K3-Safety"
+    },
+    {
+      "id": 8,
+      "name": "safety_helmet",
+      "supercategory": "K3-Safety"
+    },
+    {
+      "id": 9,
+      "name": "welding_helmet",
+      "supercategory": "K3-Safety"
+    }
+  ]
+}

@@ -31,12 +31,16 @@ A Streamlit-based web application for detecting Personal Protective Equipment (P
 
 ## R-CNN Class
 
+- ear_protection
+- hair_cap
+- masker
 - respirator
 - safety_boots
 - safety_glasses
 - safety_gloves
 - safety_helmet
 - welding_helmet
+
 ## Installation
 
 ### Prerequisites

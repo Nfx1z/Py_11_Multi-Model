@@ -17,7 +17,7 @@ A Streamlit-based web application for detecting Personal Protective Equipment (P
 |---|---|---|---|---|
 | **YOLOv11s** | Object Detection | Fastest | 11 | Single-stage detector optimized for real-time inference |
 | **ResNet18** | Multi-Label Classification | Scene-level | 11 | Classifies overall PPE compliance across safety categories |
-| **Faster R-CNN** | Object Detection | Most Accurate | 9 | Two-stage detector with highest localization accuracy |
+| **Faster R-CNN** | Object Detection | Most Accurate | 10 | Two-stage detector with highest localization accuracy |
 
 ## YOLOv11s and ResNet18 Class
 
@@ -31,7 +31,12 @@ A Streamlit-based web application for detecting Personal Protective Equipment (P
 
 ## R-CNN Class
 
-- 
+- respirator
+- safety_boots
+- safety_glasses
+- safety_gloves
+- safety_helmet
+- welding_helmet
 ## Installation
 
 ### Prerequisites
